@@ -9,10 +9,16 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: .625rem;
     margin: 2rem auto;
     max-width: 20rem;
 
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
 }
 
 input {
